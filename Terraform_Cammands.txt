@@ -1,0 +1,4 @@
+terraform init
+terraform init -upgrade
+terraform plan -var-file="dev.tfvars"
+terraform apply -ver-file="dev.tfvars"
